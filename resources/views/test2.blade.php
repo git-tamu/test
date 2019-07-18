@@ -11,29 +11,7 @@
   <title>Hello, world!</title>
 </head>
 <body>
-<h1>Hello, {{$name}}</h1>
-{{--{{$hairetu[0]}}--}}
-
-<table class="table table-hover">
-  <thead>
-  <tr>
-    <th>果物</th>
-  </tr>
-  </thead>
-  <tbody>
-  @foreach($hairetu as $val)
-    <tr>
-      <td>{{$val}}</td>
-    </tr>
-  @endforeach
-  </tbody>
-</table>
-
-<form method="POST">
-  {{ csrf_field() }}
-  <input type="text" name="drink">
-  <input type="submit">
-</form>
+<h1>{{$drink}}</h1>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
