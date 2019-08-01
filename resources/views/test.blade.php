@@ -29,6 +29,12 @@
   </tbody>
 </table>
 
+@foreach($drinks as $val)
+  {{$val->drink_name}}
+@endforeach
+
+<p>{{$drink}}</p>
+
 <form method="POST">
   {{ csrf_field() }}
   <input type="text" name="drink">
