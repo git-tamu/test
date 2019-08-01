@@ -33,7 +33,7 @@
   {{$val->drink_name}}
 @endforeach
 
-<p>{{$drink}}</p>
+<p>IDが{{$drink->id}}の飲み物は{{$drink->drink_name}}です</p>
 
 <form method="POST">
   {{ csrf_field() }}

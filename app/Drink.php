@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class Drink extends Model
 {
-    protected $table = 'drink';
+    protected $table = 'drinks';
 
     public function getAll(){
         $res = DB::select('

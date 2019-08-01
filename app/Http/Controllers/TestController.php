@@ -25,7 +25,7 @@ class TestController extends Controller
 		    'name' => $name,
             'hairetu' => $array,
             'drinks' => $drinks,
-            'drink' => $drink->drink_name,
+            'drink' => $drink,
         ]);
 	}
 
